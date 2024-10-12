@@ -37,7 +37,8 @@ df = len(sample_1)+len(sample_2)-2
 
 plt.hist(sample_1, bins=50, alpha=0.7)
 plt.hist(sample_2, bins=50, alpha=0.7)
-plt.show()
+
 
 print('Значение t-критерия: ', t, '\nЧисло степеней свободы:', df)
 print('Вы можете рассчитать p-value, введя данные значения здесь: https://pvaluecalculator.io или https://www.socscistatistics.com/pvalues/tdistribution.aspx')
+plt.show()
